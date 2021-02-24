@@ -338,7 +338,7 @@ let heroeLargo = masLargo(heroes);
 console.log(heroeLargo);
 */
 // funcion para filtar por letra inicial
-
+/*
 function filtrarPorLetra(arr, letra) {
 
     let nuevoArr = [];
@@ -361,3 +361,4 @@ let heroes = ['Doom', 'Dr. Strange', 'Hulk', 'She Hulk', 'Spiderman', 'Captain M
 
 let heroesCon = filtrarPorLetra(heroes, 'C');
 console.log(heroesCon); // She Hulk, Spiderman
+*/
