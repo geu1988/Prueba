@@ -1,5 +1,4 @@
-
- var numero1 = parseInt(prompt("ingrese un numero: "));
+var numero1 = parseInt(prompt("ingrese un numero: "));
  var numero2 = parseInt(prompt("ingrese otro numero: "));
  var pantalla = parseInt(prompt("Que operacion desea efectuar \n 1 suma, 2 resta, 3 multiplicacion, 4   division "));
  var resultado;
