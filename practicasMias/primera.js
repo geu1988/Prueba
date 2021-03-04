@@ -1,8 +1,8 @@
-var numero1 = parseInt(prompt("ingrese un numero: "));
- var numero2 = parseInt(prompt("ingrese otro numero: "));
- var pantalla = parseInt(prompt("Que operacion desea efectuar \n 1 suma, 2 resta, 3 multiplicacion, 4   division "));
- var resultado;
- var nombre;
+let numero1 = parseInt(prompt("ingrese un numero: "));
+ let numero2 = parseInt(prompt("ingrese otro numero: "));
+ let pantalla = parseInt(prompt("Que operacion desea efectuar \n 1 suma, 2 resta, 3 multiplicacion, 4   division "));
+ let resultado;
+ let nombre;
   if (pantalla == 1) {
        resultado = numero1 + numero2;
        nombre = "Suma";
