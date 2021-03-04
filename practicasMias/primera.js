@@ -1,18 +1,20 @@
+// calculos matematicos
+/*
 let numero1 = parseInt(prompt("ingrese un numero: "));
  let numero2 = parseInt(prompt("ingrese otro numero: "));
  let pantalla = parseInt(prompt("Que operacion desea efectuar \n 1 suma, 2 resta, 3 multiplicacion, 4   division "));
  let resultado;
  let nombre;
-  if (pantalla == 1) {
+  if (pantalla === 1) {
        resultado = numero1 + numero2;
        nombre = "Suma";
-    } else if (pantalla == 2) {
+    } else if (pantalla === 2) {
        resultado = numero1 - numero2;
        nombre = "resta"
-    } else if (pantalla == 3) {
+    } else if (pantalla === 3) {
        resultado = numero1 * numero2;
        nombre = "Multiplicacion";
-    } else if (pantalla == 4) {
+    } else if (pantalla === 4) {
        resultado = numero1 / numero2;
        nombre = "Division";
     } else {
@@ -20,4 +22,6 @@ let numero1 = parseInt(prompt("ingrese un numero: "));
   }
   resultado = parseInt(resultado);
   document.write("El resultado de " + nombre + " es: " + resultado);
-  
+  */
+
+
