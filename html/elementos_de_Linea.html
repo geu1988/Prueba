@@ -23,6 +23,18 @@
         abbr, acronym, cite, code, dfn, kbd, samp, var
         a, bdo, img, map, object, q, script, span, sub (arriba), sup (abajo) 
         button, input, label, select, textarea
+
+        span -> Es un contenedor de línea, equivalente a div, se suele usar para encerrar palabras o pequeños textos y darles
+        estilo a través de CSS o localizarlos desde javascript. Semánticamente no significa nada
+        
+        q -> Es el equivalente a blockquote, significa quote, por eso el de bloque se llama block - quote. Sirve para poner
+        citas pero en línea.
+        
+        code -> Sirve para encerrar código que queremos representar visualmente, suele ir unido con la etiqueta pre.
+        
+        Entidades especiales en HTML - Código ASCII
+        https://ascii.cl/es/codigos-html.htm
+        -->
     -->
     <h1>elementos de linea</h1>
     <p>4 elevado al cuadrado se representa así 4<sup>2</sup></p>
@@ -39,6 +51,23 @@
         aspernatur commodi, numquam <br> reprehenderit recusandae nobis dignissimos nam <i>enim</i> soluta?
     </p>
     <p>Lorem ipsum dolor <b>sit amet</b>consectetur.</p>
+    <p>Lorem, ipsum dolor sit amet <span> consectetur adipisicing </span>elit. Soluta nam voluptatum neque omnis commodi
+        molestiae vitae impedit id. Molestias laboriosam, ad nemo aliquam ullam vitae rerum deserunt dicta voluptatibus
+        voluptate.</p>
+    <q cite="">Yo soy Iron Man</q>
+
+    <pre>
+            <code>
+                span {
+                    color: red;
+                }
+            </code>
+        </pre>
+    <p>La etiqueta <code>&lt;h1&#62;</code> se utiliza para representar títulos de primer nivel</p>
+    <!-- Símbolo de copyright -->
+    &copy;
+    &sbquo;
+
 </body>
 
 </html>
