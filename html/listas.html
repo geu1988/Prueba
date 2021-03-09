@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listas</title>
+</head>
+
+<body>
+    <!-- 
+        Las listas en HTML sirven para listar contenido. En función del tipo de contenido de nuestra lista tenemos tres tipos de listas:
+
+        ul -> unordered list: Se utilizan cuando el orden de los elementos no influye (lista de la compra) 
+
+        ol -> ordered list: Se utilizan cuando el orden de los elementos es importante (top 10)
+
+        Cada elemento de la lista se representa con la etiqueta <li>, tanto en las ul como en las ol
+
+        dl -> definition list: Se utilizan para hacer una lista de definiciones (diccionario)
+
+        Cada elemento de una lista de definición lleva 2 etiquetas:
+            dt-> Definition term: El término que vamos a definir
+            dd-> Definition description: La descripción del término
+
+            Atributos de las listas
+    
+            ol -> 
+                type: Estilo de numeración (1, A, a, I, i)
+                start: Inicio de las secuencia (un número)
+            ul ->
+                type: Estilo de los items (disc, square, circle)
+        -->
+    <p>listas desordenadas</p>
+    <ul>
+        <li>papas</li>
+        <li>chocolate</li>
+        <li>leche</li>
+    </ul>
+
+    <p>listas desordenadas</p>
+    <ol>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+    </ol>
+    <p>listas de lenguaje en el desarrollo web</p>
+    <dl>
+        <dt>html</dt>
+        <dd>es un lenguaje de marcado para estructurar texto tambien se puede denominar el esqueleto de una pagina web
+        </dd>
+        <dt>css</dt>
+        <dd>hojas de estilo en cascada, esta es para dar estilos y forma a una pagina web</dd>
+        <dt>JavaScript</dt>
+        <dd>lenguaje de programacion para darle vida a la pagina y que tenga interaccion</dd>
+    </dl>
+    <p>listas anidadas</p>
+    <ol>
+        <li>
+            HTML
+            <ul>
+                <li>Estructura</li>
+                <li>Sintaxis</li>
+                <li>Etiquetas</li>
+            </ul>
+        </li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <p>atributos en las listas</p>
+    <ul type="square">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+    <ol type="I" start="3">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+</body>
+
+</html>
