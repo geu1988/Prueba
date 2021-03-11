@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tipos de inputs</title>
+</head>
+<!-- 
+    inputs type: 
+    button: se comporta igual que un boton <button>
+    color: se utiliza para especificar un color
+    date: se utiliza para introducir una fecha
+    dateTime: obsoleto
+    dateTime-local: fecha y hora, no funciona en firefox
+    email: se utiliza para introducir un email
+    hidden: campo oculto, puede contener un valor pero no se mostrara
+    month: se utiliza para introducir un mes
+    number: para introducir valores numericos
+    password: se utliza para introducir contraseñas
+    range: para establecer un rango
+    reset: se utiliza para resetear el formulario
+    search: se uutiliza para las barras de busqueda
+    submit: se utliza para enviar un formulario
+    tel: se utliza para para introducir numeros telefonicos
+    text:  valor por default
+    time: se utliza para introducir una hora
+    url: se utiliza para introdir urls
+    week: se utiliza para introducir el numero de semana del año
+    file: Control que permite al usuario seleccionar un archivo
+    hidden: Control que no es mostrado en pantalla, pero cuyo valor es enviado al      servidor.
+    image: Botón de envío de formulario con gráfico. Se debe usar el atributo src para definir el origen de la imagen y el
+    atributo alt para definir un texto alternativo. Se puede usar los atributos height y width para definir el tamaño de la
+    imagen en píxeles.
+
+ -->
+
+<body>
+    <input>
+    <form>
+        <!-- diferencias entre button e input (type="button") -->
+        <input type="button" value="enviar input">
+        <!-- en este se puede programar con javascript para que cumpla determinada orden pero no envia un formulario como si lo hace el button a menos que en type se especifique submit  para enviar dicho formulario-->
+        <!-- por default envia un formulario -->
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>
