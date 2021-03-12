@@ -26,6 +26,8 @@
     tel: se utliza para para introducir numeros telefonicos
     text:  valor por default
     time: se utliza para introducir una hora
+    tip: 
+    *se recomienda usar datetime-local y time para seleccionar fecha y hora 
     url: se utiliza para introdir urls
     week: se utiliza para introducir el numero de semana del año
     file: Control que permite al usuario seleccionar un archivo
@@ -37,13 +39,48 @@
  -->
 
 <body>
-    <input>
+    <h1>tipos de inputs</h1>
     <form>
+        <!-- input type (button) vs button -->
+        <h4>diferencias entre la etiqueta input tipo button y la etiqueta button</h4>
+        <input>
         <!-- diferencias entre button e input (type="button") -->
         <input type="button" value="enviar input">
         <!-- en este se puede programar con javascript para que cumpla determinada orden pero no envia un formulario como si lo hace el button a menos que en type se especifique submit  para enviar dicho formulario-->
         <!-- por default envia un formulario -->
         <button>Enviar</button>
+        <hr>
+        <!-- inputs tipo fecha -->
+        <h4>inputs tipo fecha</h4>
+        <input type="date">
+        <input type="datetime-local">
+        <input type="date">
+        <input type="time">
+        <input type="month">
+        <input type="week">
+        <hr>
+        <!-- input para moviles -->
+        <h4>inputs para moviles</h4>
+        <label>
+            search
+            <input type="search">
+        </label>
+        <label>
+            telefono
+            <input type="tel">
+        </label>
+        <label>
+            email
+            <input type="email">
+        </label>
+        <label>
+            password
+            <input type="password">
+        </label>
+        <label>
+            url
+            <input type="url">
+        </label>
     </form>
 </body>
 
