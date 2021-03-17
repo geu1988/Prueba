@@ -2,10 +2,10 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inputs de seleccion</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inputs de seleccion</title>
 </head>
 <!-- 
     radio -> Permite seleccionar una única opción de una lista de opciones relacionadas.
@@ -20,79 +20,79 @@
  -->
 
 <body>
+  <h4>inputs de seleccion</h4>
+  <form>
+    <h5>genero</h5>
+    <label>
+      <input type="radio" name="gender" value="desconocido" checked>
+      Desconocido
+    </label>
+    <label>
+      <input type="radio" name="gender" value="Masculino">
+      Maculino
+    </label>
+    <label>
+      <input type="radio" name="gender" value="Femenino">
+      Femenino
+    </label>
+    <hr>
+    <h4>inputs tipo checkbox</h4>
+    <label>
+      <input type="checkbox" name="languages" value="HTML" checked>
+      HTML
+    </label>
+    <label>
+      <input type="checkbox" name="languages" value="CSS3">
+      CSS3
+    </label>
+    <label>
+      <input type="checkbox" name="languages" value="JavaScript">
+      JavaScript
+    </label>
+    <label>
+      <input type="checkbox" name="languages" value="PHP">
+      PHP
+    </label>
+    <hr>
     <h4>inputs de seleccion</h4>
-    <form>
-        <h5>genero</h5>
-        <label>
-            <input type="radio" name="gender" value="desconocido" checked>
-            Desconocido
-        </label>
-        <label>
-            <input type="radio" name="gender" value="Masculino">
-            Maculino
-        </label>
-        <label>
-            <input type="radio" name="gender" value="Femenino">
-            Femenino
-        </label>
-        <hr>
-        <h4>inputs tipo checkbox</h4>
-        <label>
-            <input type="checkbox" name="languages" value="HTML" checked>
-            HTML
-        </label>
-        <label>
-            <input type="checkbox" name="languages" value="CSS3">
-            CSS3
-        </label>
-        <label>
-            <input type="checkbox" name="languages" value="JavaScript">
-            JavaScript
-        </label>
-        <label>
-            <input type="checkbox" name="languages" value="PHP">
-            PHP
-        </label>
-        <hr>
-        <h4>inputs de seleccion</h4>
-        <!-- select basico -->
-        <select name="languages">
-            <!-- multiple: para seleccionar varios elementos-->
-            <option value="html">HTML</option>
-            <option value="css">CSS3</option>
-            <option value="javascript">JavaScript</option>
-        </select>
-        <!-- select avanzado -->
-        <select name="pets">
-            <optgroup label="4 patas">
-                <option value="perro">perro</option>
-                <option value="gato">gato</option>
-                <option value="hasmter">hamster</option>
-                <option value="conejo">conejo</option>
-                <option value="vaca">vaca</option>
-                <option value="caballo">caballo</option>
-            </optgroup>
-            <optgroup label="aves">
-                <option value="loro">loro</option>
-            </optgroup>
-            <optgroup label="pez">
-                <option value="pez">pez</option>
-            </optgroup>
-        </select>
-        <hr>
-        <h4>datalist</h4>
-        <input type="list" list="pets">
-        <datalist id="pets">
-            <option value="perro"></option>
-            <option value="gato"></option>
-            <option value="hasmter"></option>
-            <option value="conejo"></option>
-            <option value="vaca"></option>
-            <option value="caballo"></option>
-            <option value="loro"></option>
-            <option value="pez"></option>
-        </datalist>
-    </form>
+    <!-- select basico -->
+    <select name="languages">
+      <!-- multiple: para seleccionar varios elementos-->
+      <option value="html">HTML</option>
+      <option value="css">CSS3</option>
+      <option value="javascript">JavaScript</option>
+    </select>
+    <!-- select avanzado -->
+    <select name="pets">
+      <optgroup label="4 patas">
+        <option value="perro">perro</option>
+        <option value="gato">gato</option>
+        <option value="hasmter">hamster</option>
+        <option value="conejo">conejo</option>
+        <option value="vaca">vaca</option>
+        <option value="caballo">caballo</option>
+      </optgroup>
+      <optgroup label="aves">
+        <option value="loro">loro</option>
+      </optgroup>
+      <optgroup label="pez">
+        <option value="pez">pez</option>
+      </optgroup>
+    </select>
+    <hr>
+    <h4>datalist</h4>
+    <input type="list" list="pets">
+    <datalist id="pets">
+      <option value="perro"></option>
+      <option value="gato"></option>
+      <option value="hasmter"></option>
+      <option value="conejo"></option>
+      <option value="vaca"></option>
+      <option value="caballo"></option>
+      <option value="loro"></option>
+      <option value="pez"></option>
+    </datalist>
+  </form>
 </body>
 
 </html>

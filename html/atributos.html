@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atributos</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atributos</title>
 </head>
 <style>
-    .parrafo-1 {
-        color: red;
-    }
+  .parrafo-1 {
+    color: red;
+  }
 </style>
 
 <body>
-    <!-- 
+  <!-- 
         Algunos atributos globales que están disponibles para la mayoría de etiquetas en HTML
     
         class -> Éste atributo se usa para dar estilos a través de CSS
@@ -26,19 +26,19 @@
         data-* -> Es un atributo que nos permite guardar algún valor en la etiqueta HTML
     
      -->
-    <p class="parrafo-1">Clases</p>
-    <p id="parrafo">Identificador a través de un ID</p>
-    <p title="Este es un ejemplo del atributo title">Título con tooltip</p>
-    <p id="parrafo-2" data-ejemplo="Datos de ejemplo">Datos pasados en la etiqueta</p>
+  <p class="parrafo-1">Clases</p>
+  <p id="parrafo">Identificador a través de un ID</p>
+  <p title="Este es un ejemplo del atributo title">Título con tooltip</p>
+  <p id="parrafo-2" data-ejemplo="Datos de ejemplo">Datos pasados en la etiqueta</p>
 
-    <script>
-        const p = document.getElementById('parrafo')
-        const parrafo2 = document.getElementById('parrafo-2')
+  <script>
+    const p = document.getElementById('parrafo')
+    const parrafo2 = document.getElementById('parrafo-2')
 
-        console.log(p.textContent)
-        console.log(parrafo2.dataset.ejemplo)
+    console.log(p.textContent)
+    console.log(parrafo2.dataset.ejemplo)
 
-    </script>
+  </script>
 
 </body>
 
