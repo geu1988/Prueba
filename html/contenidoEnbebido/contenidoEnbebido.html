@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -7,9 +7,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+<!-- etiquetas de imagen ya sea img o grupo de imagenes compatibles con la etiqueta picture ademas de la etiqueta img dentro de picture inmediatamente despues de source
+   DPR -> device pixel ratio es la relacion que existe entre los pixeles reales que  tiene el dispositivo yy los pixeles que tenemos disponibles para "pintar" contenido
+  DPR = pixeles reales / pixeles disponibles 
+srcset = define el conjunto de imágenes que el navegador podrá elegir, y el tamaño de cada imagen. Cada conjunto de
+información de imagen está separado del anterior por una coma.
+
+sizes = define un conjunto de condiciones de medios (por ejemplo, anchos de pantalla) e indica qué tamaño de imagen sería
+mejor elegir cuando se cumplen ciertas condiciones de medios
+
+<picture> es un contenedor usado para especificar múltiples elementos
+  <source> y un elemento <img> contenido en él para proveer versiones de una imagen para diferentes escenarios de
+  dispositivos. Si no hay coincidencias con los elementos
+  <source>, el archivo especificado en los atributos src del elemento <img> es utilizado. La imagen seleccionada es
+  entonces presentada en el espacio ocupado por el elemento <img>.
+
+  Para seleccionar la imagen óptima, el user agent examina cada atributo srcset, media, y type de la fuente para
+  seleccionar la imagen compatible.
+
+-->
+<!-- etiquetas de audio y video
+autoplay = Hace que el audio o el vídeo empiece a reproducirse de inmediato, mientras se carga el resto de la página. Le aconsejamos que no utilice vídeo (o audio) de reproducción automática en sus sitios, ya que los usuarios pueden encontralo molesto.
+
+loop = Hace que el vídeo (o audio) comience a reproducirse cada vez que finaliza.Esto puede en ocasiones resultar molesto, así que utilizalo solo si es realmente necesario.
+
+muted = Hace que los medios se reproduzcan con el sonido apagado de forma predeterminada.
+
+poster = La URL de una imagen que se mostrará antes de reproducir el vídeo. Está destinado a ser utilizado para una pantalla de presentación o pantalla publicitaria (miniatura del vídeo).
+
+src = De la misma manera que para el elemento <img>, el atributo src (source) contiene una ruta al video que deseas incrustar. Funciona de la misma manera.
+
+controls = Los usuarios deben ser capaces de controlar la reproducción de video y audio (esto es especialmente crítico en personas que padecen  epilepsia). Se debe utilizar el atributo controls para incluir la interfaz de control del browser, o construir la nuestra utilizando la JavaScript API apropiada. Como mínimo la interfaz debe incluir una manera de empezar y terminar la reproducción, y ajustar el volumen.
+
+<figcaption> = representa un subtítulo o leyenda asociado al contenido del elemento padre <figure>, pudiendo ser colocado
+    como primer o último hijo. Es importante destacar que el elemento <figcaption> es opcional.
+-->
+<style>
+  video,
+  img {
+    max-width: 100%;
+  }
+</style>
 
 <body>
+  <h1>Contenido enbebido</h1>
+  <!-- 
+  <img srcset="/html/contenidoEnbebido/assets/images/portada.webp,
+  /html/contenidoEnbebido/assets/images/portada-mobile.webp 2x" alt=""> -->
+  <!-- <img src="/html/contenidoEnbebido/assets/images/car-30984.svg" alt="lamborghini">
+  <img src="/html/contenidoEnbebido/assets/images/car-49278_640.jpg" alt="">
+  -->
+  <!-- para trabajar cualquier modificacion en css o javascript en tiempo real
+  -->
+  <!-- <picture>
+    <source srcset="/html/contenidoEnbebido/assets/images/portada-mobile.jpg,
+    /html/contenidoEnbebido/assets/images/portada-mobile.webp" media="(max-width:1200px)">
+    <img src="/html/contenidoEnbebido/assets/images/portada.jpg" alt="">
+  </picture> -->
+  <audio src="/html/contenidoEnbebido/assets/audio/oomiee.mp3" controls></audio>
+  <video src="/html/contenidoEnbebido/assets/video/Creux De Van.mp4"
+    poster="/html/contenidoEnbebido/assets/images/portada.jpg" controls></video>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/F-vSd-Qo9jI" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <h2>Gatos</h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eos ea ab in, quasi fugiat tempora totam
+    voluptatem veritatis nisi aliquid nesciunt asperiores repudiandae natus labore, amet officia perspiciatis quia.
+  </p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eos ea ab in, quasi fugiat tempora totam
+    voluptatem veritatis nisi aliquid nesciunt asperiores repudiandae natus labore, amet officia perspiciatis quia.
+  </p>
+  <figure>
 
+    <img src="https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+      alt="gato tumbado">
+    <figcaption>Gato común tumbado</figcaption>
+
+  </figure>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eos ea ab in, quasi fugiat tempora totam
+    voluptatem veritatis nisi aliquid nesciunt asperiores repudiandae natus labore, amet officia perspiciatis quia.
+  </p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eos ea ab in, quasi fugiat tempora totam
+    voluptatem veritatis nisi aliquid nesciunt asperiores repudiandae natus labore, amet officia perspiciatis quia.
+  </p>
 </body>
 
 </html>
