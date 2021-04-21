@@ -6,24 +6,83 @@ selectores simples
     selector universal -> *
     selector de tipo o etiqueta (nombre de la etiqueta)
   selectores de atributo
+    id -> id del elemento 
+    class -> clase del elemento
+    otros atributos
+      [atributo], 
+      [atributo=valor], 
+      [atributo^=valor], 
+      [atributo*=valor],
+      [atributo$=valor],
+      [atributo|=valor]
 selectores compuestos
   selectores agrupados
   selectores conbinadores
   PseudoClases - PseudoElementos
 */
-
-/* selector universal */
-* {
-  background-color: lightblue;
-}
+/* selectores elemntales */
+/* selector universal (afecta todos los elementos) */
 
 /* 
- selectores de tipo o etiqueta 
-*/
-h1 {
+* {
+  background-color: lightblue;
+} */
+
+/* selectores de tipo o etiqueta (se usan para casos espesificos) */
+
+/* h1 {
   background-color: lightgreen;
 }
 
 p {
-  background-color: lightcoral;
+  color: lightslategrey;
 }
+
+ul{
+  background-color: aquamarine;
+}
+li{
+  background-color: greenyellow;
+} */
+
+/* selectores por id "se usa el simbolo # + el nombre del atributo" no es recomendable usarla en css por espeficidad, por id se utiliza mas que todo en JavaScript*/
+
+/* #title {
+  background-color: aqua;
+} */
+
+/* selectores por clase (class) "se usa el . y el nombre del atributo" y estas no tiene limite en su uso*/
+
+/* .cuerpo{
+  background-color:mediumspringgreen;
+}
+
+.text{
+  background-color: moccasin;
+} */
+
+/* selector otros atributos [] */
+/* 
+[href] {
+  background-color: mediumturquoise;
+}
+
+[href="https:/google.com"] {
+  background-color: mediumorchid;
+}
+
+[href^="color"] {
+  background-color: palevioletred;
+}
+
+[href*="modo"] {
+  background-color: palegreen;
+}
+
+[href$="rojo"] {
+  background-color: sandybrown;
+}
+
+[lang|="en"] {
+  background-color: springgreen;
+} */
