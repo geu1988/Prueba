@@ -1,0 +1,34 @@
+/* 
+  ¿ como funciona CSS ?
+  especificidad -> establece como de espesifico es un selector para saber que estilo aplicar, el calculo se realiza de la siguiente forma
+    etiquetas y pseudoelementos   -> 001
+    clases atributos pseudoclases -> 010
+    ids                           -> 100
+    estilos en linea              -> 1000
+    !important gana a TODO y no se usa nunca
+    recomendacion siempre utilizar clases para no tener conflictos
+  cascada -> funciona siempre que la especificidad sobre el elemento sea la misma 
+  herencia -> Es la capacidad que tienen algunos elementos de heredar algunas propiedades de sus elementos contenedores (padres, abuelos, etc)
+*/
+
+/* h1{
+  background-color: red;
+}
+
+#title{
+  background-color: blue;
+} */
+
+/* h1.title{
+  background-color: yellow;
+}
+h1#title{
+  background-color: steelblue;
+}
+h1.title#title{
+  background-color: yellowgreen;
+} */
+
+.title{
+  background-color: green;
+}
