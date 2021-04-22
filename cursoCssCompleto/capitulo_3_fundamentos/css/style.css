@@ -29,6 +29,26 @@ h1.title#title{
   background-color: yellowgreen;
 } */
 
-.title{
-  background-color: green;
+body{
+  background-color: #333;
+}
+
+.title {
+  color: green;
+}
+
+.text{
+  color:crimson
+}
+
+.link{
+  color:inherit;
+}
+
+.list{
+  color:indianred;
+}
+
+.list-item-extra{
+  color:initial;
 }
