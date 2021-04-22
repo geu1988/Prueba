@@ -18,6 +18,10 @@ selectores simples
 selectores compuestos
   selectores agrupados
   selectores conbinadores
+    selector descendiente
+    selector de hermano siguiente +
+    selector de hermanos siguientes ~
+    selector de hijo directo -> solo selecciona los hijos directos
   PseudoClases - PseudoElementos
 */
 /* selectores elemntales */
@@ -62,27 +66,86 @@ li{
 } */
 
 /* selector otros atributos [] */
+/* Seleccionar los elementos que tienen ese atributo */
 /* 
 [href] {
   background-color: mediumturquoise;
 }
+/* Seleccionar los elementos que tienen ese atributo y ese valor*/
 
-[href="https:/google.com"] {
+/* [href="https:/google.com"] {
   background-color: mediumorchid;
-}
+} */
 
-[href^="color"] {
+/* Seleccionar los elementos que tienen ese atributo y empiezan por ese valor*/
+
+/* [href^="color"] {
   background-color: palevioletred;
-}
+} */
 
-[href*="modo"] {
+/* Seleccionar los elementos que tienen ese atributo y contengan ese valor*/
+
+/* [href*="modo"] {
   background-color: palegreen;
-}
+} */
 
-[href$="rojo"] {
+/* Seleccionar los elementos que tienen ese atributo y terminan por ese valor*/
+
+/* [href$="rojo"] {
   background-color: sandybrown;
-}
+} */
 
-[lang|="en"] {
+/* Seleccionar los elementos que tienen ese atributo y contengan ese valor*/
+
+/* [lang|="en"] {
   background-color: springgreen;
 } */
+
+/* Seleccionar los elementos que tienen ese atributo al menos ese valor una vez*/
+
+/* [class~="verde"]{
+    color: green;
+} */
+
+/* selectores agrupados */
+
+/* .text,
+.text-2,
+.text-3,
+.text-4 {
+  background-color: slateblue;
+} */
+
+/* selectores combinados */
+
+/* selector descendiente */
+
+/* div .title-2{
+  background-color: slateblue;
+} */
+
+/* selector hermano siguiente */
+/* 
+.text-2 + .title-2 {
+  background-color: brown;
+} */
+
+/* div .title-2 {
+  background-color: tomato;
+}
+
+.text-2 + h2 {
+  background-color: lightgreen;
+} */
+
+/* selector de hermanos siguientes */
+
+.text-2 ~ .text {
+  background-color: slateblue;
+}
+
+/* selector de hijo directo */
+
+.container > p{
+  background-color: salmon;
+}
