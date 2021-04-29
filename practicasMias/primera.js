@@ -1,17 +1,4 @@
-// calculos matematicos
-
-
-
-
-
-
-
-
-
-
-
-
-
+// calculos matematico
 let numero1 = parseInt(prompt("ingrese un numero: "));
  let numero2 = parseInt(prompt("ingrese otro numero: "));
  let pantalla = parseInt(prompt("Que operacion desea efectuar \n 1 suma, 2 resta, 3 multiplicacion, 4   division "));
