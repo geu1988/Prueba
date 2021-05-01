@@ -68,6 +68,12 @@
         border-right-color
         border-bottom-color
         border-left-color
+    
+    box-sizing:
+      Es la propiedad que nos permite controlar el calculo que hace el navegador a la hora de modificar las propiedades content, padding and border
+      los dos valores que podemos darle son: 
+        content-box -> valor por defecto
+        border-box -> Calculo de tamaño del elemento incluyendo el padding y el border
    */
 
 /* mala practica 
@@ -77,6 +83,12 @@
 }
 
 */
+
+/* buena practica*/
+
+*{
+  box-sizing: border-box;
+}
 
 body{
   background-color: #333;
@@ -88,6 +100,8 @@ body{
   background-color: purple;
   width: 200px;
   height: 200px;
+  padding: 20px;
+  border: 5px solid lightseagreen;
   /*         top   right  bottom left*/
   /* margin: 100px 50px  10px   200px; */
   /* truco para dar margenes horizontales automaticos */
