@@ -1,0 +1,20 @@
+/*
+  Los margenes verticales colapsan
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+}
+
+.text{
+  background-color: lightcoral;
+}
+
+.link{
+  background-color: #fff;
+}
