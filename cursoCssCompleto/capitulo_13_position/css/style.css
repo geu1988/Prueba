@@ -35,3 +35,49 @@
     sticky -> Es una mezcla de position relative y fixed.
     con este tipo de posicionamiento los valores top, left, bottom y right no sirven para mover el elemento, sino para indicarle que el punto pasara a tener un comportamineto de posicionamiento fixed, hasta llegar a ese punto se comportara como si tuviera relative. 
 */
+
+* {
+  background-color: #333;
+
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.container{
+  width: 200px;
+  height: 200px;
+  /* background-color: lightslategray; */
+  position: relative;
+}
+
+.box1 {
+  background-color: lightcoral; 
+   /* position: relative; */
+   /*
+  bottom: 5px;
+  border-radius: 50px; */
+  position: absolute;
+  bottom: 0;
+  right:  0;
+}
+
+.box2 {
+  background-color: lightgreen;
+  /* position: relative; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /*
+  bottom: 0;
+  right: 0; */
+}
+
+.link{
+  /* para darle medidas a un elemento de linea no necesita poner display: block; con el el solo hecho de darle position este obtine medidas margenes y demas de un elemento de bloque */
+  position:relative;
+  width: 10px;
+  background-color:lightgoldenrodyellow;
+}
