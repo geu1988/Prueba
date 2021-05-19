@@ -1,0 +1,45 @@
+div {
+  display: block;
+  background: #555;
+  position: absolute;
+}
+
+div div {
+  width: 100px;
+  height: 100px;
+  background: lightgreen;
+}
+
+.container {
+  position: relative;
+  border: 2px solid lightblue;
+  margin: 50px auto;
+  width: 450px;
+  height: 450px;
+}
+
+.box-1 {
+  left: 0;
+}
+
+.box-2 {
+  right: 0;
+}
+
+.box-3 {
+  left: 0;
+  bottom: 0;
+}
+
+.box-4 {
+  bottom: 0;
+  right: 0;
+}
+
+.box-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

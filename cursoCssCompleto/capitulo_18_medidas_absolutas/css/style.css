@@ -1,0 +1,36 @@
+/*
+   
+ */
+
+ body{
+   /* position */
+  position: relative;
+  top: 0;
+  left: 0;
+
+  /* box-model */
+  display: block;
+  width: 300px;
+  height: 300px;
+  padding: 0px;
+  margin: auto;
+  content: 0;
+  overflow: hidden;
+
+  /* porpiedades de texto */
+  font-size: 12px;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+  font-style: italic;
+
+  /* propiedades visuales */
+  color: lightblue;
+  background-color:lightcoral;
+  border: 1px solid #333;
+  border-radius: 2px;
+
+  /* varios */
+  opacity: .2;
+
+ }
