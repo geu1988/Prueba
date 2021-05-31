@@ -105,8 +105,7 @@ body{
   /*         top   right  bottom left*/
   /* margin: 100px 50px  10px   200px; */
   /* truco para dar margenes horizontales automaticos */
-  /* margin-right: auto;
-  margin-left: auto; */
+  /* margin: auto; */
   /* no usar mala practica */
   /* margin: 0 auto; */
   /* padding: 50px 20px 10px 70px; */
@@ -131,8 +130,9 @@ body{
   margin: 30px;
   padding: 10px 15px;
   /* sentencia global en una sola linea de border */
-  /* border: 10px solid turquoise; */
-  border-width: 10px;
+  border: 10px solid turquoise;
+  /* border-width: 10px;
   border-style: solid;
-  border-color: turquoise;
+  border-color: turquoise; */
+  border-radius: 8px;
 }
