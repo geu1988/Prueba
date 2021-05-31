@@ -70,7 +70,7 @@ li{
 /* 
 [href] {
   background-color: mediumturquoise;
-}
+} */
 /* Seleccionar los elementos que tienen ese atributo y ese valor*/
 
 /* [href="https:/google.com"] {
@@ -119,9 +119,9 @@ li{
 /* selectores combinados */
 
 /* selector descendiente */
-
-/* div .title-2{
-  background-color: slateblue;
+/* 
+div .title-2{
+  background-color: slategray;
 } */
 
 /* selector hermano siguiente */
@@ -132,8 +132,9 @@ li{
 
 /* div .title-2 {
   background-color: tomato;
-}
+} */
 
+/* 
 .text-2 + h2 {
   background-color: lightgreen;
 } */
@@ -141,11 +142,11 @@ li{
 /* selector de hermanos siguientes */
 
 .text-2 ~ .text {
-  background-color: slateblue;
+  background-color: blueviolet;
 }
 
 /* selector de hijo directo */
 
-.container > p{
-  background-color: salmon;
+.container > .text-2{
+  background-color:aqua;
 }
