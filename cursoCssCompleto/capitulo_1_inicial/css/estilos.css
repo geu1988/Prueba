@@ -1,9 +1,9 @@
 /*
-* selector: elemento al que se le aplica estilos
-* propiedad: lo que se va a cambiar
-* valor: el nuevo valor que se la dara a la propiedad
-* propiedad:valor -> se le denomina declaracion
-* al conjunto de selector + declaracion (es) se le denomina regla
+ selector: elemento al que se le aplica estilos
+ propiedad: lo que se va a cambiar
+ valor: el nuevo valor que se la dara a la propiedad
+ propiedad:valor -> se le denomina declaracion
+ al conjunto de selector + declaracion (es) se le denomina regla
 */
 /*
 selector{
