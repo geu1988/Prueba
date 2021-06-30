@@ -17,7 +17,7 @@ let numero1 = parseInt(prompt("ingrese un numero: "));
        resultado = numero1 / numero2;
        nombre = "Division";
     } else {
-       document.write("Por favor digite un numero valido entre el 1 y el 4");
+     document.write("Por favor digite un numero valido entre el 1 y el 4");
   }
   resultado = parseInt(resultado);
   document.write("El resultado de " + nombre + " es: " + resultado);
