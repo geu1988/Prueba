@@ -14,7 +14,6 @@ selectores simples
       [atributo^=valor], 
       [atributo*=valor],
       [atributo$=valor],
-      [atributo|=valor]
 selectores compuestos
   selectores agrupados
   selectores conbinadores
@@ -95,11 +94,6 @@ li{
   background-color: sandybrown;
 } */
 
-/* Seleccionar los elementos que tienen ese atributo y contengan ese valor*/
-
-/* [lang|="en"] {
-  background-color: springgreen;
-} */
 
 /* Seleccionar los elementos que tienen ese atributo al menos ese valor una vez*/
 
