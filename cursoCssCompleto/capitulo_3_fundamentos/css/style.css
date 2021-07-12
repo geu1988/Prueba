@@ -50,7 +50,7 @@ body{
 }
 
 .link{
-  color:inherit;
+  color:inherit; /* obliga a tomar la herencia del elemento padre*/
 }
 
 .list{
@@ -58,5 +58,5 @@ body{
 }
 
 .list-item-extra{
-  color:initial;
+  color:initial; /* fuerza la utilizacion del valor inicial*/
 }
