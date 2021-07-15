@@ -101,7 +101,7 @@ li{
 /* [class~="verde"]{
     color: green;
 } */
-
+/* selecciona los elementos que tienen establecido un atributo llamado nombre_atributo y cuyo valor es una serie de palabras separadas con guiones, pero que comienza con valor. Este tipo de selector sólo es útil para los atributos de tipo lang que indican el idioma del contenido del elemento. */
 /* 
 [lang|="en"]{
   background-color: slateblue;
