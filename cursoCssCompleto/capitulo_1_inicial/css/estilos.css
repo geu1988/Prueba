@@ -5,9 +5,9 @@
  propiedad:valor -> se le denomina declaracion
  al conjunto de selector + declaracion (es) se le denomina regla
 */
-/*
+/* 
 selector{
-  propiedad: valor;
+  propiedad: valor; -> declaracion
   ...
 }
 */
