@@ -1,10 +1,10 @@
-/* los elementos en linea no tienen dimensiones de ancho y alto a estos su tamaño lo determina su contenido en html*/ 
+/* los elementos en linea no tienen dimensiones de ancho y alto a estos su tamaño lo determina su contenido en html*/
 /* width -> 
       especifica la anchura del area de contenido de un elemento. El   área de contenido está dentro del padding, borde, y margen del elemento.
   height ->
     especifica la altura del area de contenido de un elemento. El área de contenido está dentro del padding, borde, y margen del elemento.  */
 
-   /* margin: 
+/* margin: 
     Es la propiedad que nospermite generar espacio entre elementos.
     Es un shorthand (propiedad abreviada) que controla los 4 lados posibles a los que dar margin.
 
@@ -21,8 +21,8 @@
     1 valor -> margin: top/right/bottom/left
 
     para los margenes en elementos en linea solo funcionan los margenes horizontales ya sea left or right
-    */ 
-   /* 
+    */
+/* 
    padding: es la propiedad que nos permite generar espacio interno entre el borde y la caja 
    Es un shorthand (propiedad abreviada) que controla los 4 lados posibles a los que dar padding.
 
@@ -86,17 +86,17 @@
 
 /* buena practica*/
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #333;
   color: #fff;
   /* margin: 0; */
 }
 
-.block{
+.block {
   background-color: purple;
   width: 200px;
   height: 200px;
@@ -105,28 +105,37 @@ body{
   /*         top   right  bottom left*/
   /* margin: 100px 50px  10px   200px; */
   /* truco para dar margenes horizontales automaticos */
-  /* margin: auto; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: auto; cualquiera de la sdos opciones son validas */
   /* no usar mala practica */
   /* margin: 0 auto; */
   /* padding: 50px 20px 10px 70px; */
 }
 
+.title {
+  width: 200px;
+  height: 200px;
+  /* el margin no centra el contenido del elemento */
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.inline{
+.inline {
   background-color: lightcoral;
   color: inherit;
   /* margin-left: 100px; */
   /* padding-bottom: 100px; */
 }
 
-.buttons{
+.buttons {
   background-color: steelblue;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
-.button{
+.button {
   margin: 30px;
   padding: 10px 15px;
   /* sentencia global en una sola linea de border */
