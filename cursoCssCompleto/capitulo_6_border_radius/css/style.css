@@ -8,7 +8,7 @@
     
     si solo recibe un valor dibujara un circulo en cada vertice del radio que especifiquemos 
       
-      border-radius: 50px; -> circulo con 50 pixeles de radio 
+      border-radius: 50px; -> circulo con 50 pixeles de radio en cada vertice 
 
     si utlizamos el border-radius como shorthand hay diferencias entre si queremos dar un valor a cada lado (circulo) o dos (elipse) 
     
