@@ -50,4 +50,12 @@ body {
   height: 300px;
   /* border-radius: 50px; */
   border-radius: 25px / 50px;
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 200px; */
+  border-top-left-radius: 50px 100px;
+  border-radius: 50px 100px 150px 200px / 100px 150px 200px 250px; /* con la barra inclinada se pueden usar desde 2 hasta 4 valores ejemplo : 
+    border-radius: 50px / 100px
+  */
 }
