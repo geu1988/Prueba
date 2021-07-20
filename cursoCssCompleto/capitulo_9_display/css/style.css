@@ -19,6 +19,7 @@ body {
 .text{
   background-color: lightcoral;
   /* display:none; */
+  /* display: inline; se comportaria como un elemento de linea */
 }
 
 .link{
