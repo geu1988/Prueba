@@ -24,7 +24,8 @@ body {
   border: 2px solid lightseagreen;
   text-align: center;
   /* para centrar la caja se usa margin */
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .text{
