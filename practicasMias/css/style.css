@@ -1,10 +1,10 @@
 div {
-  display: block;
+  /* display: block; */
   background: #555;
   position: absolute;
 }
 
-div div {
+.container div {
   width: 100px;
   height: 100px;
   background: lightgreen;
@@ -42,4 +42,6 @@ div div {
   right: 0;
   bottom: 0;
   margin: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
 }
