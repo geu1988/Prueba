@@ -28,24 +28,31 @@ body {
   margin-left: auto;
 }
 
-.text{
+.text {
   text-align: left;
 }
 
-.link{
+.link {
   color: #fff;
-  background-color:   #666;
-  display: block; /* se debe declarar el contenido de bloque para dar valores de un elemento de bloque */
+  background-color: #666;
+  /* display: inline-block; con este perderia las caracteristicas que otorga los elementos en bloque y no ce centrara, ya que el text-align centra el contenido mas no el contenedor siempre y cuando no tenga un ancho declarado */
+  /* se debe declarar el contenido de bloque para dar valores de un elemento de bloque */
+  display: block; 
   text-align: center;
   margin-bottom: 20px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   margin-top: 10px;
 }
+/* trucos para centrar una imagen */
+.container {
+  text-align: center;
+}
 
-.img{
-  display: block;
-  margin: auto;
-  margin-top: 10px;
+.img {
+  /* display: block; dependiendo la situacion o lo que se requiera se dan estos trucos para centrar una imagen */
+  /* margin-left: auto;
+  margin-right: auto; */
   /* text-align: center; - no funciona en imagenesya que el contenido lo ocupa toda la caja */
 }
